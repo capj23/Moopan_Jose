@@ -1,0 +1,25 @@
+{
+    "repositories":
+    [
+        {
+            "type": "vcs",
+            "url": "https://github.com/andreskrey/html-to-markdown"
+        }
+    ],
+    "require": {
+        "rtheunissen/oauth2-reddit": "^2.0",
+        "league/html-to-markdown": "dev-dev-reddit-flavored-markdown as 4.2",
+        "ext-mbstring": "*",
+        "monolog/monolog": "^1",
+        "andreskrey/readability.php": "~2.0",
+        "neitanod/forceutf8": "^2.0",
+        "illuminate/database": "^5.4",
+        "symfony/console": "^3.3",
+        "symfony/yaml": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "empleadoEstatalBot\\": "app/"
+        }
+    }
+}
