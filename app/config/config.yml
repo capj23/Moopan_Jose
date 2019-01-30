@@ -7,7 +7,7 @@ reddit:
   # reddit login data
   client_id: 'kp3RiSdOB7bVMg'
   secret_key: '	XJcaBxHcd7rAXSIUAed_uroG1oo'
-  redirect_uri: 'redirect_uri'
+  redirect_uri: 'https://localhost.com/about'
   username: 'Moopan_Jose'
   password: 'moopanjosebose'
 
@@ -35,7 +35,7 @@ reddit:
 
   # Subreddits you want to monitor
   subreddits: ['empleadoEstatalBot',
-                'https://www.reddit.com/r/Kerala/']
+                'Kerala']
 
   # Subreddits you want the bot comments to be distinguished and sticked
   # (You HAVE to be a mod and your account MUST HAVE the 'post' permission)
