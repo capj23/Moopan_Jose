@@ -5,11 +5,11 @@ bot:
 reddit:
 
   # reddit login data
-  client_id: 'client_id'
-  secret_key: 'secret_key'
+  client_id: 'kp3RiSdOB7bVMg'
+  secret_key: '	XJcaBxHcd7rAXSIUAed_uroG1oo'
   redirect_uri: 'redirect_uri'
-  username: 'username'
-  password: 'password'
+  username: 'Moopan_Jose'
+  password: 'moopanjosebose'
 
   # Should be left as "submit, read"
   scopes: ['submit', 'read']
@@ -34,7 +34,8 @@ reddit:
                    ]
 
   # Subreddits you want to monitor
-  subreddits: ['empleadoEstatalBot']
+  subreddits: ['empleadoEstatalBot',
+                'https://www.reddit.com/r/Kerala/']
 
   # Subreddits you want the bot comments to be distinguished and sticked
   # (You HAVE to be a mod and your account MUST HAVE the 'post' permission)
@@ -49,7 +50,7 @@ newspaper_processor:
                    ]
 
   # Bot signature. In HTML or markdown
-  signature: 'signature'
+  signature: 'Moopan Jose just saved you a click'
 
   # Max reddit comment length. Right now is 10000. Set a conservative value like 9000.
   max_length: 9000
